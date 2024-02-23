@@ -1,0 +1,24 @@
+.summary_background {
+    background-color: #202020;
+    font-weight: bolder;
+    color: #fff9f9;
+    text-align: center;
+    padding: 60px;
+    border-radius: 2%;
+    margin-right: 840px;
+    margin-left: 90px;
+    padding-bottom: 300px;
+    margin-top: -800px; 
+}
+
+.additional_details{
+    color: azure;
+}
+
+.vehicle_name{
+    color: white;
+}
+
+.vehicle_price{
+    color: white;
+}

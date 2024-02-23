@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+.container {
+    background-image: url("./assets/images/bg.jpg"); /* Adjust the file extension according to your image format */
+}
+
+.backgroundImage_styles {
+    width: 1000px;
+}
+
+.text_container {
+    margin-top: -420px;
+    margin-left: 70px;
+}
+
+.text {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(213, 215, 214);
+}
+
+.text_luxury {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font for luxury */
+    font-size: 45px;
+    color: rgb(255, 0, 0); /* Gold color */
+    animation: shine 2s ease-in-out infinite alternate; /* Add shine animation */
+}
+
+.text_sporty {
+    font-family: 'Oswald', sans-serif; /* Use Oswald font for sporty */
+    font-size: 45px;
+    color: rgb(255, 0, 0); /* Red color */
+    animation: bounce 0.5s ease-in-out infinite alternate; /* Add bounce animation */
+}
+
+@keyframes shine {
+    from {
+        text-shadow: 0 0 10px rgba(72, 0, 0, 0);
+    }
+    to {
+        text-shadow: 0 0 20px rgb(215, 0, 0);
+    }
+}
+
+
+
